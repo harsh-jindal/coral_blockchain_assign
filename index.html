@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>DB INTERN</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">Coral Blockchain</span>
+  </nav>
+  <div class="container">
+    <br/>
+    <div class="alert" role="alert">
+    </div>
+    <form id="search1" action="">
+      <div class="input-group mb-3">
+        <input id="email" type="email" class="form-control" placeholder="Email Id" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button id="search" class="btn btn-primary" type="submit">Search</button>
+          <button id="delete" class="btn btn-danger" type="submit">Delete</button>
+        </div>
+      </div>
+    </form>
+    <div class="tab">
+    </div>
+    <br/>
+    <form id="userdata" action="">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" id="username" placeholder="Enter Username" maxlength="25" required/>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" maxlength="50" required/>
+      </div>
+      <div class="form-group">
+        <label for="emailId">Email ID</label>
+        <input type="email" class="form-control" id="emailId" aria-describedby="emailHelp" placeholder="Enter email" maxlength="50"
+          required />
+      </div>
+      <div class="form-group ">
+        <label for="phoneno ">Phone No.</label>
+        <input type="tel" class="form-control " id="phoneno" placeholder="Phone No. " pattern="^[6-9]\d{9}$" required/>
+      </div>
+      <input type="submit" class="btn btn-primary " value="submit" />
+    </form>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+  crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+  crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+  crossorigin="anonymous "></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+<script src="./index.js "></script>
+
+</html>
